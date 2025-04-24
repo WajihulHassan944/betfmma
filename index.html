@@ -1,46 +1,1720 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fantasy Mmadness</title>
-    <!-- Importing the Anton font -->
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <!-- Linking the CSS file -->
-    <link rel="stylesheet" href="styles.css">
-	 <!-- Favicon and Apple Touch Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
-    <link rel="manifest" href="site.webmanifest" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Betting - Home</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Covered+By+Your+Grace&family=Kanit:wght@300;400;500;600;700&family=Kaushan+Script&family=Open+Sans:wght@300;400;500;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Rajdhani:wght@400;500;600&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500;700&family=Saira+Extra+Condensed:wght@400;500&family=Signika:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link href="css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.3.0/css/responsive.bootstrap5.min.css" />
+
 
 </head>
+
 <body>
-   
-  <div class="container">
-	
-	
-	<img src="two.png" class="two">
-	<img src="three.png" class="three">
-	
-	<img src="four.png" class="four">
-	<img src="four.png" class="five">
-	
-	<img src="five.png" class="six">
-	<img src="six.png" class="seven">
-	<a href="https://www.fantasymmadness.com/CreateAccount" class="eight"><img src="eight.png" ><h6>Join Us Now!</h6></a>
-	<a href="https://www.fantasymmadness.com/"><img src="https://www.fantasymmadness.com/static/media/logo.c2aa609dbe0ed6c1af42.png" class="logo"></a>
-	<h2>Step Into the Action</h2>
-<h1>Fantasy <br>MMA Awaits</h1>
 
-<h3>Create Leagues. Build Teams. Win $10,000!.</h3>
-<div class="line"></div>
-<h3>Join the action today and shape the outcome!</h3>
+    <header class="float-start w-100">
+        <div class="top-bar-head">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-lg-2">
+                    <div class="col">
+                        <ul class="list-part-top">
+                            <li>
+                                <a href="standings.html"> Help </a>
+                                <a href="standings.html"> News </a>
+                                <a href="support.html"> Contact </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col d-grid justify-content-lg-end">
+                        <ul class="right-top-l">
+                            <li>
+                                <a data-bs-toggle="modal" data-bs-target="#registerModal" class="btn reg-btn">Registration</a>
+                                <a data-bs-toggle="modal" data-bs-target="#registerModal" class="my-account">
+                        <i class="fas fa-sign-in-alt"></i> My Account</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<h4>Your Arena, Your Rules – Dive into the Ultimate MMA Experience.</h4>
-<h5>Where strategy meets thrill – are you ready?</h5>
+        <div class="logo-divb">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-lg-2">
+                    <div class="col">
+                        <a href="index.html">
+                <img src="images/logo.png" alt="logo"/>
+              </a>
+                    </div>
+                    <div class="col d-grid justify-content-lg-end">
+                        <div class="serach-div-part">
+                            <div class="form-group d-flex justify-content-between align-items-center">
+                                <input type="text" class="form-control" placeholder="Enter your Keyword" />
+                                <button type="submit" class="btn">
+                          <i class="fas fa-search"></i>
+                        </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand d-block d-lg-none" href="index.html">
+             <img src="images/logo.png" alt="logo"/>
+          </a>
 
-  </div> 
-   
+                <button class="navbar-toggler border-0 p-0 " type="button" data-bs-toggle="offcanvas" data-bs-target="#mobile-menu">
+            <i class="fas fa-bars"></i>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="sport.html"> Sport </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="live-betting.html">Live Betting</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="live-casino.html">Live Casino</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                 Pages
+                </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="in-play.html">In-Play</a></li>
+                                <li><a class="dropdown-item" href="statistics.html">Statistics</a></li>
+                                <li><a class="dropdown-item" href="result.html">Results</a></li>
+                                <li><a class="dropdown-item" href="standings.html">Standings</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="promotions.html">Promotions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="support.html">Support</a>
+                        </li>
+
+
+                    </ul>
+
+
+                </div>
+
+                <div class="login-right-div ms-auto d-none d-lg-block">
+                    <ul class="list-untyled d-flex align-items-center">
+                        <li>
+                            <a href="#" class="btn"> <i class="fab fa-facebook-f"></i> </a>
+                            <a href="#" class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+</svg> </a>
+                            <a href="#" class="btn"> <i class="fab fa-google-plus-g"></i> </a>
+                            <a href="#" class="btn"> <i class="fab fa-instagram"></i> </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="float-start w-100">
+        <div class="banner-section px-lg-5">
+            <div class="container">
+                <div class="col-sm-9 col-lg-5">
+                    <div class="ind-banner">
+                        <h5> YOUR FIRST BET ON US </h5>
+                        <h2>Matched Free Bet if your first bet loses</h2>
+                        <a href="#" class="btn btn-banner-n"> Register Now </a>
+                        <h6 class="text-white col-lg-10"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h6>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="float-start w-100">
+        <div class="total-body-part py-lg-5">
+            <div class="container px-lg-5">
+                <div class="d-md-flex justify-content-between align-items-center mb-4">
+                    <div class="left-text1">
+                        <h5 class="comon-sub-txet mb-2"> Latest Matches </h5>
+                        <h2 class="main-heading mt-2"> All Matches For Batting </h2>
+                    </div>
+                    <div class="d-none d-lg-block">
+                        <a href="#" class="btn comon-btn"> Sell all Matches </a>
+                    </div>
+                </div>
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 row-cols-xl-3 gy-4 g-lg-4">
+                    <div class="col">
+                        <div class="comon-latse-lt">
+                            <div class="top-sec-lt align-items-center d-flex justify-content-between w-100">
+                                <div class="cm-clubs text-center">
+                                    <figure>
+                                        <img src="images/738657.png" alt="logom" />
+                                    </figure>
+                                    <h6>RM Team
+                                        <span class="d-block"> 128 Point </span>
+                                    </h6>
+                                </div>
+                                <h5 class="time-s1 btn"> 03:45pm </h5>
+                                <div class="cm-clubs text-center">
+                                    <figure>
+                                        <img src="images/5043412.png" alt="logom" />
+                                    </figure>
+                                    <h6>SMV Team
+                                        <span class="d-block"> 228 Point </span>
+                                    </h6>
+                                </div>
+
+
+                            </div>
+                            <ul class="list-untyled d-flex justify-content-center w-100 pt-2">
+                                <li> <i class="fas fa-tag"></i> soccer </li>
+                                <li class="ms-4"> <i class="fas fa-trophy"></i> World Cup </li>
+                            </ul>
+
+                            <div class="hover-div">
+                                <a href="#" class="btn ply-btn"> Play Now </a>
+                                <a href="#" class="btn view-btn"> View More </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="comon-latse-lt">
+                            <div class="top-sec-lt align-items-center d-flex justify-content-between w-100">
+                                <div class="cm-clubs text-center">
+                                    <figure>
+                                        <img src="images/8614850.png" alt="logom" />
+                                    </figure>
+                                    <h6>GB Team
+                                        <span class="d-block"> 128 Point </span>
+                                    </h6>
+                                </div>
+                                <h5 class="time-s1 btn"> 03:45pm </h5>
+                                <div class="cm-clubs text-center">
+                                    <figure>
+                                        <img src="images/217441.png" alt="logom" />
+                                    </figure>
+                                    <h6>SO Team
+                                        <span class="d-block"> 228 Point </span>
+                                    </h6>
+                                </div>
+
+
+                            </div>
+                            <ul class="list-untyled d-flex justify-content-center w-100 pt-2">
+                                <li> <i class="fas fa-tag"></i> cricket </li>
+                                <li class="ms-4"> <i class="fas fa-trophy"></i> World Cup </li>
+                            </ul>
+
+                            <div class="hover-div">
+                                <a href="#" class="btn ply-btn"> Play Now </a>
+                                <a href="#" class="btn view-btn"> View More </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="comon-latse-lt">
+                            <div class="top-sec-lt align-items-center d-flex justify-content-between w-100">
+                                <div class="cm-clubs text-center">
+                                    <figure>
+                                        <img src="images/738657.png" alt="logom" />
+                                    </figure>
+                                    <h6>DF Team
+                                        <span class="d-block"> 128 Point </span>
+                                    </h6>
+                                </div>
+                                <h5 class="time-s1 btn"> 03:45pm </h5>
+                                <div class="cm-clubs text-center">
+                                    <figure>
+                                        <img src="images/5043412.png" alt="logom" />
+                                    </figure>
+                                    <h6>GD Team
+                                        <span class="d-block"> 228 Point </span>
+                                    </h6>
+                                </div>
+
+
+                            </div>
+                            <ul class="list-untyled d-flex justify-content-center w-100 pt-2">
+                                <li> <i class="fas fa-tag"></i> Basketball </li>
+                                <li class="ms-4"> <i class="fas fa-trophy"></i> World Cup </li>
+                            </ul>
+
+                            <div class="hover-div">
+                                <a href="#" class="btn ply-btn"> Play Now </a>
+                                <a href="#" class="btn view-btn"> View More </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="comon-latse-lt">
+                            <div class="top-sec-lt align-items-center d-flex justify-content-between w-100">
+                                <div class="cm-clubs text-center">
+                                    <figure>
+                                        <img src="images/738657.png" alt="logom" />
+                                    </figure>
+                                    <h6>DF Team
+                                        <span class="d-block"> 128 Point </span>
+                                    </h6>
+                                </div>
+                                <h5 class="time-s1 btn"> 03:45pm </h5>
+                                <div class="cm-clubs text-center">
+                                    <figure>
+                                        <img src="images/5043412.png" alt="logom" />
+                                    </figure>
+                                    <h6>GD Team
+                                        <span class="d-block"> 228 Point </span>
+                                    </h6>
+                                </div>
+
+
+                            </div>
+                            <ul class="list-untyled d-flex justify-content-center w-100 pt-2">
+                                <li> <i class="fas fa-tag"></i> Basketball </li>
+                                <li class="ms-4"> <i class="fas fa-trophy"></i> World Cup </li>
+                            </ul>
+
+                            <div class="hover-div">
+                                <a href="#" class="btn ply-btn"> Play Now </a>
+                                <a href="#" class="btn view-btn"> View More </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="comon-latse-lt">
+                            <div class="top-sec-lt align-items-center d-flex justify-content-between w-100">
+                                <div class="cm-clubs text-center">
+                                    <figure>
+                                        <img src="images/738657.png" alt="logom" />
+                                    </figure>
+                                    <h6>DF Team
+                                        <span class="d-block"> 128 Point </span>
+                                    </h6>
+                                </div>
+                                <h5 class="time-s1 btn"> 03:45pm </h5>
+                                <div class="cm-clubs text-center">
+                                    <figure>
+                                        <img src="images/5043412.png" alt="logom" />
+                                    </figure>
+                                    <h6>GD Team
+                                        <span class="d-block"> 228 Point </span>
+                                    </h6>
+                                </div>
+
+
+                            </div>
+                            <ul class="list-untyled d-flex justify-content-center w-100 pt-2">
+                                <li> <i class="fas fa-tag"></i> Basketball </li>
+                                <li class="ms-4"> <i class="fas fa-trophy"></i> World Cup </li>
+                            </ul>
+
+                            <div class="hover-div">
+                                <a href="#" class="btn ply-btn"> Play Now </a>
+                                <a href="#" class="btn view-btn"> View More </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="comon-latse-lt">
+                            <div class="top-sec-lt align-items-center d-flex justify-content-between w-100">
+                                <div class="cm-clubs text-center">
+                                    <figure>
+                                        <img src="images/738657.png" alt="logom" />
+                                    </figure>
+                                    <h6>DF Team
+                                        <span class="d-block"> 128 Point </span>
+                                    </h6>
+                                </div>
+                                <h5 class="time-s1 btn"> 03:45pm </h5>
+                                <div class="cm-clubs text-center">
+                                    <figure>
+                                        <img src="images/5043412.png" alt="logom" />
+                                    </figure>
+                                    <h6>GD Team
+                                        <span class="d-block"> 228 Point </span>
+                                    </h6>
+                                </div>
+
+
+                            </div>
+                            <ul class="list-untyled d-flex justify-content-center w-100 pt-2">
+                                <li> <i class="fas fa-tag"></i> Basketball </li>
+                                <li class="ms-4"> <i class="fas fa-trophy"></i> World Cup </li>
+                            </ul>
+
+                            <div class="hover-div">
+                                <a href="#" class="btn ply-btn"> Play Now </a>
+                                <a href="#" class="btn view-btn"> View More </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="d-block d-lg-none text-center mx-auto w-100 my-5">
+                    <a href="#" class="btn comon-btn"> Sell all Matches </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="live-casiono py-5">
+            <div class="container px-lg-5">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                    <div class="left-text1">
+                        <h5 class="comon-sub-txet mb-2"> Play Betting </h5>
+                        <h2 class="main-heading text-white mt-2"> Live Casino </h2>
+                    </div>
+                    <div class="d-none d-lg-block">
+                        <a href="#" class="btn comon-btn"> Sell all Matches </a>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-xl-5 gy-5 g-lg-5">
+
+                    <div class="col">
+                        <a href="#" class="live-casion">
+                            <figure>
+                                <img src="images/casion1.jpg" alt="casion" />
+                                <figcaption>
+                                    <span class="btn ply-btn"> Play Now </span>
+                                </figcaption>
+                            </figure>
+                            <h5 class="mb-2 text-white"> Get a $5 reward ! </h5>
+                            <p> Royal Prism </p>
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="#" class="live-casion">
+                            <figure>
+                                <img src="images/casion5.jpg" alt="casion" />
+                                <figcaption>
+                                    <span class="btn ply-btn"> Play Now </span>
+                                </figcaption>
+                            </figure>
+                            <h5 class="mb-2 text-white"> Get a $5 reward ! </h5>
+                            <p> Royal Prism </p>
+                        </a>
+                    </div>
+
+                
+
+                  
+
+
+
+                </div>
+                <div class="d-block d-lg-none text-center mx-auto w-100 my-5">
+                    <a href="#" class="btn comon-btn"> Sell all Matches </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="to-palayers-div py-5">
+            <div class="container px-lg-5">
+                <h5 class="comon-sub-txet mb-2"> Tipsters </h5>
+                <h2 class="main-heading mt-2"> Top Tipsters </h2>
+                <div class="slider-tips mt-5">
+                    <div class="topers-sild owl-carousel owl-theme">
+                        <a href="#" class="items-slider">
+                            <figure>
+                                <img src="images/user1.png" alt="us" />
+                            </figure>
+                            <h5 class="my-2"> Ruger Dan</h5>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="crm-d text-center">
+                                    <h6 class="my-1 count1"> 14 </h6>
+                                    <p>Rank </p>
+                                </div>
+                                <div class="crm-d text-center ms-4">
+                                    <h6 class="my-1 count1"> 240 </h6>
+                                    <p>Following </p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center bnty-div">
+                                <h5> ROI : <span>4,254</span> </h5>
+                                <h5 class="ms-5"> Profit : <span>4,254</span> </h5>
+                            </div>
+                        </a>
+
+                        <a href="#" class="items-slider">
+                            <figure>
+                                <img src="images/user1.png" alt="us" />
+                            </figure>
+                            <h5 class="my-2"> Ruger Dan</h5>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="crm-d text-center">
+                                    <h6 class="my-1 count1"> 12 </h6>
+                                    <p>Rank </p>
+                                </div>
+                                <div class="crm-d text-center ms-4">
+                                    <h6 class="my-1 count1"> 108 </h6>
+                                    <p>Following </p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center bnty-div">
+                                <h5> ROI : <span>4,254</span> </h5>
+                                <h5 class="ms-5"> Profit : <span>4,254</span> </h5>
+                            </div>
+                        </a>
+
+
+                        <a href="#" class="items-slider">
+                            <figure>
+                                <img src="images/user1.png" alt="us" />
+                            </figure>
+                            <h5 class="my-2"> Ruger Dan</h5>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="crm-d text-center">
+                                    <h6 class="my-1 count1"> 17 </h6>
+                                    <p>Rank </p>
+                                </div>
+                                <div class="crm-d text-center ms-4">
+                                    <h6 class="my-1 count1"> 178 </h6>
+                                    <p>Following </p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center bnty-div">
+                                <h5> ROI : <span>4,254</span> </h5>
+                                <h5 class="ms-5"> Profit : <span>4,254</span> </h5>
+                            </div>
+                        </a>
+
+
+                        <a href="#" class="items-slider">
+                            <figure>
+                                <img src="images/user1.png" alt="us" />
+                            </figure>
+                            <h5 class="my-2"> Ruger Dan</h5>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="crm-d text-center">
+                                    <h6 class="my-1 count1"> 02 </h6>
+                                    <p>Rank </p>
+                                </div>
+                                <div class="crm-d text-center ms-4">
+                                    <h6 class="my-1 count1"> 100 </h6>
+                                    <p>Following </p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center bnty-div">
+                                <h5> ROI : <span>4,254</span> </h5>
+                                <h5 class="ms-5"> Profit : <span>4,254</span> </h5>
+                            </div>
+                        </a>
+
+
+                        <a href="#" class="items-slider">
+                            <figure>
+                                <img src="images/user1.png" alt="us" />
+                            </figure>
+                            <h5 class="my-2"> Ruger Dan</h5>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <div class="crm-d text-center">
+                                    <h6 class="my-1 count1"> 20 </h6>
+                                    <p>Rank </p>
+                                </div>
+                                <div class="crm-d text-center ms-4">
+                                    <h6 class="my-1 count1"> 250 </h6>
+                                    <p>Following </p>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center bnty-div">
+                                <h5> ROI : <span>4,254</span> </h5>
+                                <h5 class="ms-5"> Profit : <span>4,254</span> </h5>
+                            </div>
+                        </a>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="how-todo-div py-5">
+            <div class="container px-lg-5">
+                <h5 class="comon-sub-txet text-center mb-2"> How to do </h5>
+                <h2 class="main-heading mt-2 text-center"> Our Betting Process </h2>
+                <div class="row row-cols-1 row-cols-lg-3 mt-5">
+                    <div class="col">
+                        <div class="crm-steps">
+                            <figure>
+                                <img src="images/woman_working_2.svg" alt="gnm" />
+                            </figure>
+                            <span> 01 </span>
+                            <h5> Sign up & Deposit </h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="crm-steps">
+                            <figure>
+                                <img src="images/woman_working_1.svg" alt="gnm" />
+                            </figure>
+                            <span> 02 </span>
+                            <h5> Choose favorite Game </h5>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="crm-steps">
+                            <figure>
+                                <img src="images/sale.svg" alt="gnm" />
+                            </figure>
+                            <span> 03 </span>
+                            <h5> Enjoy Your Profit </h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="fatures-div py-5">
+            <div class="container px-lg-5">
+                <div class="row row-cols-1 row-cols-lg-2 align-items-center">
+                    <div class="col">
+                        <div class="left-sec-div1">
+                            <h5 class="comon-sub-txet mb-2"> Features </h5>
+                            <h2 class="main-heading mt-2"> Our Betting Features </h2>
+                            <p class="my-4 col-lg-10"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                                a type specimen book.</p>
+                            <p class="my-4 col-lg-10"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.</p>
+                            <a href="#" class="btn comon-btn"> Get Started </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 mt-4 mt-lg-0 gy-5 g-lg-4 right-fp">
+
+                            <div class="col">
+                                <div class="crm-feat">
+                                    <figure>
+                                        <img src="images/2664594.png" alt="am" />
+                                    </figure>
+                                    <h5> Currency Conversion </h5>
+                                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="crm-feat">
+                                    <figure>
+                                        <img src="images/2652170.png" alt="am" />
+                                    </figure>
+                                    <h5> 24/7 Support Online </h5>
+                                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="crm-feat">
+                                    <figure>
+                                        <img src="images/925748.png" alt="am" />
+                                    </figure>
+                                    <h5> Transparency </h5>
+                                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="crm-feat">
+                                    <figure>
+                                        <img src="images/858151.png" alt="am" />
+                                    </figure>
+                                    <h5> Easy To Profit </h5>
+                                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="plya-div1 py-5">
+            <div class="container px-lg-5">
+                <div class="row row-cols-1 row-cols-lg-4 gy-5 g-lg-5">
+                    <div class="col">
+                        <div class="comon-feta text-center">
+                            <div class="comin-in">
+                                <figure>
+                                    <img src="images/3076839.png" alt="png" />
+                                </figure>
+                                <h2>1,925 +</h2>
+                                <h5> Total Games </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="comon-feta text-center">
+                            <div class="comin-in">
+                                <figure>
+                                    <img src="images/925748.png" alt="png" />
+                                </figure>
+                                <h2>1,925 +</h2>
+                                <h5> Avaerage Profite </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="comon-feta text-center">
+                            <div class="comin-in">
+                                <figure>
+                                    <img src="images/2348758.png" alt="png" />
+                                </figure>
+                                <h2>13,925 +</h2>
+                                <h5> Players </h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="comon-feta text-center">
+                            <div class="comin-in">
+                                <figure>
+                                    <img src="images/2664594.png" alt="png" />
+                                </figure>
+                                <h2>2,925 +</h2>
+                                <h5> Avaerage ROI </h5>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="leading-bord-div py-5">
+            <div class="container px-lg-5">
+                <h5 class="comon-sub-txet mb-2 text-center"> Latest Changellenge </h5>
+                <h2 class="main-heading mt-2 text-center"> See Our Leaderboard </h2>
+
+                <ul class="nav nav-pills mb-3 justify-content-center mt-5" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#pills-homee" type="button" role="tab">All bets</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-profilee" type="button" role="tab">my bets</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-contactn" type="button" role="tab">jackpots</button>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="pills-homee" role="tabpanel">
+
+                        <div class="comin-tabsle-div col-lg-10 mx-auto">
+                            <table id="led-div" class="table table-striped dt-responsive nowrap" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th> User</th>
+                                        <th>Bet ID</th>
+                                        <th>Bet Amount</th>
+                                        <th>Chance</th>
+                                        <th>Game</th>
+                                        <th>Profit</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8724C</td>
+                                        <td>0.00050051</td>
+                                        <td>70%</td>
+                                        <td>Casino</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8724C</td>
+                                        <td>0.00050051</td>
+                                        <td>70%</td>
+                                        <td>Cricket</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8724C</td>
+                                        <td>0.00050051</td>
+                                        <td>70%</td>
+                                        <td>Scoer</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8724C</td>
+                                        <td>0.00050051</td>
+                                        <td>70%</td>
+                                        <td>Casino</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8724C</td>
+                                        <td>0.00050051</td>
+                                        <td>10%</td>
+                                        <td>Scoer</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8729B</td>
+                                        <td>0.00050051</td>
+                                        <td>50%</td>
+                                        <td>Casino</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B87288</td>
+                                        <td>0.00050051</td>
+                                        <td>20%</td>
+                                        <td>Cricket</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="pills-profilee" role="tabpanel">
+                        <div class="comin-tabsle-div col-lg-10 mx-auto">
+                            <table id="led-div2" class="table table-striped dt-responsive nowrap" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th> User</th>
+                                        <th>Bet ID</th>
+                                        <th>Bet Amount</th>
+                                        <th>Chance</th>
+                                        <th>Game</th>
+                                        <th>Profit</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8724C</td>
+                                        <td>0.00050051</td>
+                                        <td>70%</td>
+                                        <td>Casino</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8724C</td>
+                                        <td>0.00050051</td>
+                                        <td>70%</td>
+                                        <td>Cricket</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8724C</td>
+                                        <td>0.00050051</td>
+                                        <td>70%</td>
+                                        <td>Scoer</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8724C</td>
+                                        <td>0.00050051</td>
+                                        <td>70%</td>
+                                        <td>Casino</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8724C</td>
+                                        <td>0.00050051</td>
+                                        <td>10%</td>
+                                        <td>Scoer</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8729B</td>
+                                        <td>0.00050051</td>
+                                        <td>50%</td>
+                                        <td>Casino</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B87288</td>
+                                        <td>0.00050051</td>
+                                        <td>20%</td>
+                                        <td>Cricket</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contactn" role="tabpanel">
+                        <div class="comin-tabsle-div col-lg-10 mx-auto">
+                            <table id="led-div3" class="table table-striped dt-responsive nowrap" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th> User</th>
+                                        <th>Bet ID</th>
+                                        <th>Bet Amount</th>
+                                        <th>Chance</th>
+                                        <th>Game</th>
+                                        <th>Profit</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8724C</td>
+                                        <td>0.00050051</td>
+                                        <td>70%</td>
+                                        <td>Casino</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8724C</td>
+                                        <td>0.00050051</td>
+                                        <td>70%</td>
+                                        <td>Cricket</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8724C</td>
+                                        <td>0.00050051</td>
+                                        <td>70%</td>
+                                        <td>Scoer</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8724C</td>
+                                        <td>0.00050051</td>
+                                        <td>70%</td>
+                                        <td>Casino</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8724C</td>
+                                        <td>0.00050051</td>
+                                        <td>10%</td>
+                                        <td>Scoer</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B8729B</td>
+                                        <td>0.00050051</td>
+                                        <td>50%</td>
+                                        <td>Casino</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                <figure class="tab-user">
+                                                    <img src="images/user1.png" alt="pb" />
+                                                </figure>
+                                                <span>Jone Deo</span>
+                                            </div>
+                                        </td>
+                                        <td>B799B87288</td>
+                                        <td>0.00050051</td>
+                                        <td>20%</td>
+                                        <td>Cricket</td>
+                                        <td>0.00000021</td>
+                                    </tr>
+
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-offers-d1 py-5">
+            <div class="container px-lg-5">
+                <h5 class="comon-sub-txet mb-2 text-center"> Latest Changellenge </h5>
+                <h2 class="main-heading mt-2  text-center"> See Top Offers </h2>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 row-cols-xl-4 gy-5 gy-xl-0 mt-0 mt-lg-0">
+                    <div class="col">
+                        <div class="comon-ofers text-center">
+                            <h6> Welcome Offer </h6>
+                            <h4 class="text-white"> Get Up to $75 in BTC </h4>
+                            <h2 class="text-white"> <span class="d-block"> Bonus Code </span> BTC75
+                            </h2>
+                            <p class="text-white"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                            <button class="btn comon-btn get-btn mt-3"> Get Started </button>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="comon-ofers text-center bgn">
+                            <h6> Weekly Offer </h6>
+                            <h4> Get Up to $75 in BTC </h4>
+                            <h2> <span class="d-block"> Bonus Code </span> BTC75
+                            </h2>
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                            <button class="btn comon-btn get-btn mt-3"> Get Started </button>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="comon-ofers text-center bg-grdient">
+                            <h6 class="text-white"> Today Offer </h6>
+                            <h4 class="text-white"> Get Up to $75 in BTC </h4>
+                            <h2 class="text-white"> <span class="d-block text-dark"> Bonus Code </span> BTC75
+                            </h2>
+                            <p class="text-white"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                            <button class="btn view-btn get-btn mt-3"> Get Started </button>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="comon-ofers text-center">
+                            <h6> Cashback Offer </h6>
+                            <h4 class="text-white"> Get Up to $75 in BTC </h4>
+                            <h2 class="text-white"> <span class="d-block"> Bonus Code </span> BTC75
+                            </h2>
+                            <p class="text-white"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                            <button class="btn comon-btn get-btn mt-3"> Get Started </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="float-start w-100 pt-5 pt-lg-5">
+        <div class="container">
+            <div class="subscibe-footer">
+                <h6 class="text-white"> SUBSCRIBE TO OUR NEWSLETTER </h6>
+                <div class="form-group d-flex align-items-center">
+                    <input class="form-control me-2" type="search" placeholder="Enter your Email" />
+                    <button type="submit" class="btn btn-subnm">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+          </svg>
+        </button>
+                </div>
+            </div>
+            <div class="row g-lg-5 mt-0">
+                <div class="col-lg-5">
+                    <div class="logo-about mt-3 mt-lg-0 d-lg-flex align-items-start justify-content-between">
+                        <a href="#" class="col-lg-4">
+                 <img src="images/logo.png" alt="logo"/>
+               </a>
+                        <p class="col-lg-8 ms-2 text-white mt-3 mt-lg-0"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </p>
+                    </div>
+                    <div class="support-section mt-4">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-2 g-lg-5">
+                            <div class="col">
+                                <div class="d-flex align-items-center">
+                                    <figure class="m-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+                          <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8Zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816ZM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0Zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4Z"/>
+                        </svg>
+                                    </figure>
+                                    <div class="comnlink ms-3">
+                                        <h6 class="m-0"> JOIN OUR TEAM </h6>
+                                        <a href="#"> example@gmail.org </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col">
+                                <div class="d-flex align-items-center">
+                                    <figure class="m-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-paper" viewBox="0 0 16 16">
+                          <path d="M4 0a2 2 0 0 0-2 2v1.133l-.941.502A2 2 0 0 0 0 5.4V14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V5.4a2 2 0 0 0-1.059-1.765L14 3.133V2a2 2 0 0 0-2-2H4Zm10 4.267.47.25A1 1 0 0 1 15 5.4v.817l-1 .6v-2.55Zm-1 3.15-3.75 2.25L8 8.917l-1.25.75L3 7.417V2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v5.417Zm-11-.6-1-.6V5.4a1 1 0 0 1 .53-.882L2 4.267v2.55Zm13 .566v5.734l-4.778-2.867L15 7.383Zm-.035 6.88A1 1 0 0 1 14 15H2a1 1 0 0 1-.965-.738L8 10.083l6.965 4.18ZM1 13.116V7.383l4.778 2.867L1 13.117Z"/>
+                        </svg>
+                                    </figure>
+                                    <div class="comnlink ms-3">
+                                        <h6 class="m-0"> CONTACT US </h6>
+                                        <a href="#"> mail@demolink.org </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="get-intouch-div mt-4 d-flex align-items-center justify-content-between">
+                        <ul>
+                            <li>
+                                <a href="#" class="btn btn-socal-1">
+                    <i class="fab fa-facebook-f"></i>
+                   </a>
+                                <a href="#" class="btn btn-socal-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+</svg>
+                   </a>
+                                <a href="#" class="btn btn-socal-1">
+                    <i class="fab fa-google-plus-g"></i>
+                   </a>
+                                <a href="#" class="btn btn-socal-1">
+                    <i class="fab fa-instagram"></i>
+                   </a>
+                            </li>
+                        </ul>
+
+                        <a href="support.html" class="btn get-btn">
+                 Get In Touch
+               </a>
+                    </div>
+
+                </div>
+                <div class="col-lg-7">
+                    <h4 class="text-white mt-5 mt-lg-0 text-uppercase">
+                        Popular News
+                    </h4>
+                    <div class="row row-cols-1  row-cols-lg-2 g-4">
+                        <div class="col">
+                            <div class="comon-news">
+                                <figure class="m-0">
+                                    <img src="images/footer-soccer-post-3-93x87.jpg" alt="pbn" />
+                                </figure>
+                                <div class="left-divbn">
+                                    <a href="#" class="btn tg-btn"> <span> Tennis </span> </a>
+                                    <a href="#" class="titel-text1 my-2 d-block">
+                             Lorem Ipsum is simply dummy
+                           </a>
+                                    <p> <i class="far fa-clock"></i> APRIL 15, 2022 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="comon-news">
+                                <figure class="m-0">
+                                    <img src="images/footer-soccer-post-3-93x87.jpg" alt="pbn" />
+                                </figure>
+                                <div class="left-divbn">
+                                    <a href="#" class="btn tg-btn"><span> Tennis </span> </a>
+                                    <a href="#" class="titel-text1 my-2 d-block">
+                             Lorem Ipsum is simply dummy
+                           </a>
+                                    <p> <i class="far fa-clock"></i> APRIL 15, 2022 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="comon-news">
+                                <figure class="m-0">
+                                    <img src="images/footer-soccer-post-3-93x87.jpg" alt="pbn" />
+                                </figure>
+                                <div class="left-divbn">
+                                    <a href="#" class="btn tg-btn"> <span> Tennis </span> </a>
+                                    <a href="#" class="titel-text1 my-2 d-block">
+                             Lorem Ipsum is simply dummy
+                           </a>
+                                    <p> <i class="far fa-clock"></i> APRIL 15, 2022 </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="comon-news">
+                                <figure class="m-0">
+                                    <img src="images/footer-soccer-post-3-93x87.jpg" alt="pbn" />
+                                </figure>
+                                <div class="left-divbn">
+                                    <a href="#" class="btn tg-btn"> <span> Tennis </span> </a>
+                                    <a href="#" class="titel-text1 my-2 d-block">
+                             Lorem Ipsum is simply dummy
+                           </a>
+                                    <p> <i class="far fa-clock"></i> APRIL 15, 2022 </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="footer-div1 mt-4">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-lg-2 text-center text-lg-start gy-4 gy-lg-0 justify-content-center justify-content-lg-between">
+                    <div class="col">
+                        <p class="text-white"> Copyright © 2022.All Rights Reserved </p>
+                    </div>
+                    <div class="col d-grid justify-content-lg-end">
+                        <ul>
+                            <li>
+                                <a href="sport.html"> Sports </a>
+                                <a href="in-play.html"> In-play </a>
+                                <a href="promotions.html"> Promotions </a>
+                                <a href="statistics.html"> Statistics </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- login Modal -->
+    <div class="modal fade login-div-modal" id="loginModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                </div>
+                <div class="modal-body">
+
+                    <div class="com-div-md">
+                        <span class="text-center d-table m-auto user-icon"> <i class="fas fa-user-circle"></i> </span>
+                        <h5 class="text-center mb-3 mt-0"> Sign In </h5>
+                        <button type="button" class="close" data-bs-dismiss="modal">
+           <span aria-hidden="true">×</span>
+         </button>
+                        <div class="login-modal-pn">
+
+                            <div class="cm-select-login mt-3">
+                                <div class="country-dp">
+
+                                    <input type="email" class="form-control" placeholder="Username Or Email" />
+                                </div>
+                                <div class="phone-div">
+
+                                    <input type="password" class="form-control" placeholder="Password" />
+                                </div>
+
+
+                            </div>
+
+
+
+                            <button class="btn comon-btn w-100"> <i class="fas fa-lock"></i> SIGN IN </button>
+                        </div>
+
+                        <p class="text-center  mt-3">
+                            <a data-bs-toggle="modal" class="regster-bn" data-bs-target="#lostpsModal" data-bs-dismiss="modal"> Lost Password ? </a> </p>
+
+
+                        <p class="text-center  mt-3"> Do not have an account?
+                            <a data-bs-toggle="modal" class="regster-bn" data-bs-target="#registerModal" data-bs-dismiss="modal"> Register </a> </p>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- lost password -->
+
+    <div class="modal fade login-div-modal" id="lostpsModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="com-div-md">
+                        <span class="text-center d-table m-auto user-icon"> <i class="fas fa-user-circle"></i> </span>
+                        <h5 class="text-center mb-3 mt-0"> Forget Your Password? </h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+           <span aria-hidden="true">×</span>
+         </button>
+                        <div class="login-modal-pn">
+                            <p> We'll email you a link to reset your password</p>
+                            <div class="cm-select-login mt-3">
+
+                                <div class="phone-div">
+
+                                    <input type="email" class="form-control" placeholder="Enter Your Email " />
+                                </div>
+
+
+                            </div>
+
+
+
+                            <button class="btn comon-btn w-100"> Send Me a password reset Link </button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- register Modal -->
+
+    <div class="modal fade login-div-modal" id="registerModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                </div>
+                <div class="modal-body">
+                    <div class="com-div-md">
+
+                        <button type="button" class="close" data-bs-dismiss="modal">
+           <span aria-hidden="true">×</span>
+         </button>
+
+
+
+                        <div class="form-wizard">
+                            <form action="gn" method="post" role="form">
+                                <div class="form-wizard-header">
+                                    <ul class="list-unstyled form-wizard-steps clearfix">
+                                        <li class="active"><span>1</span></li>
+                                        <li><span>2</span></li>
+                                        <li><span>3</span></li>
+                                        <li><span>4</span></li>
+                                    </ul>
+                                </div>
+                                <fieldset class="wizard-fieldset show">
+                                    <span class="text-center d-table m-auto user-icon"> <i class="fas fa-user-circle"></i> </span>
+                                    <h5 class="text-center mb-3 mt-0"> Register </h5>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control wizard-required" id="fname" />
+                                        <label for="fname" class="wizard-form-text-label">Email or Phone Number*</label>
+                                        <div class="wizard-form-error"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control wizard-required" id="lnameb" />
+                                        <label for="lnameb" class="wizard-form-text-label">Create Password*</label>
+                                        <div class="wizard-form-error"></div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input type="password" class="form-control wizard-required" id="zcode" />
+                                        <label for="zcode" class="wizard-form-text-label">Confirm Password*</label>
+                                        <div class="wizard-form-error"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="forget2 mt-3 ml-3 d-flex justify-content-between">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                                            <label class="form-check-label" for="exampleCheck1"> By clicking Register, you agree to our
+                              Terms of Use
+                              and
+                              Cookie Policy</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group clearfix">
+                                        <a href="javascript:;" class="form-wizard-next-btn comon-btn btn w-100 float-right">Continue</a>
+                                    </div>
+                                </fieldset>
+                                <fieldset class="wizard-fieldset">
+                                    <span class="text-center d-table m-auto user-icon"> <i class="fas fa-user-circle"></i> </span>
+                                    <h5 class="text-center mb-3 mt-0"> Register </h5>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control wizard-required" id="fnamer" />
+                                        <label for="fnamer" class="wizard-form-text-label">First Name*</label>
+                                        <div class="wizard-form-error"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control wizard-required" id="lname" />
+                                        <label for="lname" class="wizard-form-text-label">Last Name*</label>
+                                        <div class="wizard-form-error"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        Gender
+                                        <div class="wizard-form-radio">
+                                            <input name="radio-name" id="radio1" type="radio" />
+                                            <label for="radio1">Male</label>
+                                        </div>
+                                        <div class="wizard-form-radio">
+                                            <input name="radio-name" id="radio2" type="radio" />
+                                            <label for="radio2">Female</label>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control wizard-required" id="zcodee">
+                                        <label for="zcodee" class="wizard-form-text-label">Zip Code*</label>
+                                        <div class="wizard-form-error"></div>
+                                    </div>
+                                    <div class="form-group d-flex justify-content-center align-items-center btn-divb clearfix">
+                                        <a href="javascript:;" class="form-wizard-previous-btn prve-btn float-left">Previous</a>
+                                        <a href="javascript:;" class="form-wizard-next-btn comon-btn btn float-right">Continue</a>
+                                    </div>
+                                </fieldset>
+                                <fieldset class="wizard-fieldset">
+                                    <h5>Choose Deposit Method </h5>
+
+                                    <ul class="nav nav-pills supot-btn mb-3 justify-content-center" id="pills-tab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab">
+                          <span class="coiu-icon"> <img src="images/kindpng_123461.png" alt="pnm"/> </span> 
+                        </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab">
+                        <span class="coiu-icon"> <img src="images/PhonePe_Logo_full.png" alt="nm"/> </span> 
+                      </button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab">
+                        <span class="coiu-icon"> <img src="images/2560px-UPI-Logo-vector.svg.png" alt="nm"/> </span> 
+                        </button>
+                                        </li>
+                                    </ul>
+                                    <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel">
+                                            <div class="fm-divb-nm">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Enter Your Deposit Amount*" />
+
+                                                </div>
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Add Your Promo Code*" />
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-profile" role="tabpanel">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control " placeholder="Enter Your Deposit Amount*" />
+
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control  " placeholder="Add Your Promo Code" />
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="pills-contact" role="tabpanel">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control " placeholder="Enter Your Deposit Amount*" />
+
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Add Your Promo Code*" />
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group clearfix">
+                                        <a href="javascript:;" class="form-wizard-next-btn comon-btn btn w-100 float-right">Continue</a>
+                                    </div>
+                                </fieldset>
+                                <fieldset class="wizard-fieldset">
+                                    <div class="sucess-fm-div text-center">
+                                        <span class="text-center">
+                      <i class="fas fa-check-circle"></i>
+                      </span>
+                                        <h5 class="text-center">SUCCESS </h5>
+                                        <p class="text-center mb-4"> Congratulations, your account has been successfully created. </p>
+                                    </div>
+                                    <a href="javascript:;" class="form-wizard-submit comon-btn w-100 float-right">Submit</a>
+                                </fieldset>
+
+
+                            </form>
+                        </div>
+
+                        <p class="text-center  mt-3"> Do not have an account?
+                            <a data-bs-toggle="modal" class="regster-bn" data-bs-target="#loginModal" data-bs-dismiss="modal"> Login </a> </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="offcanvas offcanvas-start mobile-menu-div" id="mobile-menu" role="dialog">
+        <div class="offcanvas-header">
+
+            <button type="button" class="close-menu" data-bs-dismiss="offcanvas" aria-label="Close">
+         <i class="fas fa-times-circle"></i>
+     </button>
+        </div>
+
+
+        <div class="offcanvas-body">
+
+            <div class="head-contact">
+                <a href="index.html" class="logo-side d-flex align-items-center">
+            <img src="images/logo.png" alt="logo"/>
+         </a>
+                <div class="mobile-menu-sec mt-3">
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="sport.html"> Sport </a>
+                        </li>
+                        <li>
+                            <a href="live-betting.html"> Live Betting </a>
+                        </li>
+
+                        <li>
+                            <a href="live-casino.html"> Live Casino </a>
+                        </li>
+                        <li>
+                            <a href="result.html"> Result </a>
+                        </li>
+                        <li>
+                            <a href="promotions.html"> Promotions </a>
+                        </li>
+                        <li>
+                            <a href="statistics.html"> Statistics</a>
+                        </li>
+                        <li>
+                            <a href="in-play.html"> In-Play</a>
+                        </li>
+                        <li>
+                            <a href="standings.html"> Standings </a>
+                        </li>
+                        <li>
+                            <a href="support.html"> Support </a>
+                        </li>
+
+                        <li>
+                            <a data-bs-toggle="modal" data-bs-target="#loginModal" class="btn login-btn"> Login </a>
+                        </li>
+                        <li>
+                            <a data-bs-toggle="modal" data-bs-target="#registerModal" class="btn join-btn"> Join Us </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.12.1/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.3.0/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.3.0/js/responsive.bootstrap5.min.js"></script>
+
+    <script>
+        AOS.init({
+            offset: 100,
+            easing: 'ease',
+            delay: 0,
+            once: true,
+            duration: 800,
+
+        });
+    </script>
+
 </body>
+
 </html>
