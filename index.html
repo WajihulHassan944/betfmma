@@ -773,90 +773,89 @@
         </div>
     </div>
 End Testimonials Area-->
+<style>
+.portfolio-image{
+max-height:300px;
+object-fit:contain;
+}
+.portfolio-image img{
+object-fit:contain;
+}
+</style>
 
-<!--Start Project Area -->
-<div class="team-area team-bg pt-100 pb-70">
-  <div class="container">
-    <div class="section-title white-title">
-      <span>Fighters</span>
-      <h2>Meet Our Professional Fighters</h2>
-    </div>
-    <div class="portfolio-slider owl-carousel owl-theme" id="fighters-container">
-      <!-- Fighters will be injected here -->
-    </div>
-  </div>
-</div>
-<!--End Project Area -->
-<script>
-document.addEventListener("DOMContentLoaded", async function () {
-  const container = document.getElementById("fighters-container");
-
-  try {
-    const [matchesRes, shadowRes] = await Promise.all([
-      fetch("https://fantasymmadness-game-server-three.vercel.app/match"),
-      fetch("https://fantasymmadness-game-server-three.vercel.app/shadow"),
-    ]);
-
-    if (!matchesRes.ok || !shadowRes.ok) {
-      throw new Error("Failed to fetch fighter data.");
-    }
-
-    const matches = await matchesRes.json();
-    const shadowFighters = await shadowRes.json();
-    const fighters = [];
-
-    const processFighters = (fighterList) => {
-      fighterList.forEach(match => {
-        if (!fighters.some(f => f.name === match.matchFighterA)) {
-          fighters.push({ name: match.matchFighterA, image: match.fighterAImage });
-        }
-        if (!fighters.some(f => f.name === match.matchFighterB)) {
-          fighters.push({ name: match.matchFighterB, image: match.fighterBImage });
-        }
-      });
-    };
-
-    processFighters(matches);
-    processFighters(shadowFighters);
-
-    fighters.forEach(fighter => {
-      const item = document.createElement("div");
-      item.className = "single-portfolio-item";
-      item.innerHTML = `
-        <div class="portfolio-image">
-          <a href="https://www.fantasymmadness.com/our-fighters" target="_blank" rel="noopener noreferrer">
-            <img src="${fighter.image}" alt="${fighter.name}">
-          </a>
+    <!--Start Project Area -->
+    <div class="team-area team-bg pt-100 pb-70">
+        <div class="container">
+            <div class="section-title white-title">
+                <span>Fighters</span>
+                <h2>Meet Our Professional Fighters</h2>
+            </div>
+            <div class="portfolio-slider owl-carousel owl-theme">
+                <div class="single-portfolio-item">
+                    <div class="portfolio-image">
+                        <a href="https://www.fantasymmadness.com/our-fighters"><img src="https://res.cloudinary.com/dq2fwh1ui/image/upload/v1735640557/fighterAImages/hkp2e9ifnudpvhqkdfjz.jpg" alt="Image"></a>
+                    </div>
+                    <div class="portfolio-content">
+                        <a href="https://www.fantasymmadness.com/our-fighters">
+                            <h3>Michael Venom Page</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="single-portfolio-item">
+                    <div class="portfolio-image">
+                        <a href="https://www.fantasymmadness.com/our-fighters"><img src="https://res.cloudinary.com/dq2fwh1ui/image/upload/v1735640558/fighterBImages/a9lkicltim5dmmeqjapx.jpg" alt="Image"></a>
+                    </div>
+                    <div class="portfolio-content">
+                        <a href="https://www.fantasymmadness.com/our-fighters">
+                            <h3>Mike Perry</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="single-portfolio-item">
+                    <div class="portfolio-image">
+                        <a href="https://www.fantasymmadness.com/our-fighters"><img src="https://res.cloudinary.com/dq2fwh1ui/image/upload/v1735640762/fighterAImages/nlpcyi25c4ihevimivjt.jpg" alt="Image"></a>
+                    </div>
+                    <div class="portfolio-content">
+                        <a href="https://www.fantasymmadness.com/our-fighters">
+                            <h3>Terrence Crawford</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="single-portfolio-item">
+                    <div class="portfolio-image">
+                        <a href="https://www.fantasymmadness.com/our-fighters"><img src="https://res.cloudinary.com/dq2fwh1ui/image/upload/v1735640762/fighterBImages/bynrlix6wcohe6dlyk4v.jpg" alt="Image"></a>
+                    </div>
+                    <div class="portfolio-content">
+                        <a href="https://www.fantasymmadness.com/our-fighters">
+                            <h3>Errol Spence Jr</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="single-portfolio-item">
+                    <div class="portfolio-image">
+                        <a href="https://www.fantasymmadness.com/our-fighters"><img src="https://res.cloudinary.com/dq2fwh1ui/image/upload/v1735640924/fighterAImages/wyv0xbs6dhvmnhwr24q5.jpg" alt="Image"></a>
+                    </div>
+                    <div class="portfolio-content">
+                        <a href="https://www.fantasymmadness.com/our-fighters">
+                            <h3>Anthony Joshua</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="single-portfolio-item">
+                    <div class="portfolio-image">
+                        <a href="https://www.fantasymmadness.com/our-fighters"><img src="https://res.cloudinary.com/dq2fwh1ui/image/upload/v1735640924/fighterBImages/e17yi2tl9feverjsoiut.jpg" alt="Image"></a>
+                    </div>
+                    <div class="portfolio-content">
+                        <a href="https://www.fantasymmadness.com/our-fighters">
+                            <h3>Daniel Dubois</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="portfolio-content">
-          <a href="https://www.fantasymmadness.com/our-fighters" target="_blank" rel="noopener noreferrer">
-            <h3>${fighter.name}</h3>
-          </a>
-        </div>
-      `;
-      container.appendChild(item);
-    });
+    </div>
+    <!--End Project Area-->
 
-    // IMPORTANT: Initialize or reinitialize Owl Carousel
-    $('.portfolio-slider').owlCarousel({
-      loop: true,
-      margin: 30,
-      nav: true,
-      dots: true,
-      autoplay: true,
-      autoplayTimeout: 3000,
-      responsive: {
-        0: { items: 1 },
-        600: { items: 2 },
-        1000: { items: 3 }
-      }
-    });
-
-  } catch (error) {
-    console.error("Error loading fighters:", error);
-  }
-});
-</script>
 
 
 
