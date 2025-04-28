@@ -1,42 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Bootstrap Css-->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!--Meanmenu Css-->
-    <link rel="stylesheet" href="assets/css/meanmenu.css">
-    <!--Owl carousel-->
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <!--Owl Theme-->
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <!--Magnific-popup-->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!--Flaticon-->
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <!--Remixicon-->
-    <link rel="stylesheet" href="assets/css/remixicon.css">
-    <!--Odometer-->
-    <link rel="stylesheet" href="assets/css/odometer.min.css">
-    <!--Progresscircle-->
-    <link rel="stylesheet" href="assets/css/progresscircle.min.css">
-    <!--Aos css-->
-    <link rel="stylesheet" href="assets/css/aos.css">
-    <!--Style css-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!--Dark css-->
-    <link rel="stylesheet" href="assets/css/dark.css">
-    <!--Responsive css-->
-    <link rel="stylesheet" href="assets/css/responsive.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- SEO Meta Tags -->
+    <title>Bet Fantasy Mmadness | Play Fantasy MMA, UFC, BKFC & Combat Sports Games</title>
+    <meta name="description" content="Bet Fantasy Mmadness: The ultimate fantasy combat sports platform! Bet on fantasy MMA, UFC, BKFC, and more. Draft real fighters, spin for prizes, and climb the leaderboard — all for free.">
+    <meta name="keywords" content="Bet Fantasy MMA, Bet Fantasy UFC, Bet Fantasy BKFC, Bet Fantasy Combat Sports, Bet Fantasy Wrestling, Bet Fantasy Kickboxing, Bet Fantasy Knockouts, Bet Fantasy Bare Knuckle, Bet Fantasy Fighter, Bet Fantasy Leaderboard, Bet Fantasy Spin Wheel, Free Fantasy Betting, Combat Sports Games">
+    <meta name="author" content="Bet Fantasy Mmadness">
 
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.betfantasymadness.com/">
+    <meta property="og:title" content="Bet Fantasy Mmadness | Play Fantasy MMA, UFC, BKFC & Combat Sports Games">
+    <meta property="og:description" content="Join Bet Fantasy Mmadness to bet on fantasy fights, draft fighters, and dominate the fantasy leaderboard. 100% free to start playing and winning!">
+    <meta property="og:image" content="https://res.cloudinary.com/dqi6vk2vn/image/upload/v1743079917/home/rtr4tmlkw82rmk1kywuc.webp">
 
-    <title>Fantasy Madness</title>
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.betfantasymadness.com/">
+    <meta name="twitter:title" content="Bet Fantasy Mmadness | Play Fantasy MMA, UFC, BKFC & Combat Sports Games">
+    <meta name="twitter:description" content="Draft real fighters, win tokens, and rise to the top of the fantasy combat sports scene. Play Bet Fantasy Mmadness free today!">
+    <meta name="twitter:image" content="https://res.cloudinary.com/dqi6vk2vn/image/upload/v1743079917/home/rtr4tmlkw82rmk1kywuc.webp">
+
+    <link rel="canonical" href="https://www.betfantasymadness.com/">
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="https://res.cloudinary.com/dqi6vk2vn/image/upload/v1743079917/home/rtr4tmlkw82rmk1kywuc.webp">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/remixicon.css">
+    <link rel="stylesheet" href="assets/css/odometer.min.css">
+    <link rel="stylesheet" href="assets/css/progresscircle.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
 <body>
