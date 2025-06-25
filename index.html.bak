@@ -152,148 +152,36 @@
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav m-auto">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link dropdown-toggle active">
+                                    <a href="fantasymmadness.com" class="nav-link active">
                                             Home            
                                         </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="index.html" class="nav-link">Home One</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="index-2.html" class="nav-link">Home Two</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="index-3.html" class="nav-link active">Home Three</a>
-                                        </li>
-                                    </ul>
+                                   
                                 </li>
                                 <li class="nav-item">
-                                    <a href="about-us.html" class="nav-link">About Us</a>
+                                    <a href="fantasymmadness.com/about" class="nav-link">About Us</a>
                                 </li>
 
+  <li class="nav-item">
+                                    <a href="fantasymmadness.com/CreateAccount" class="nav-link">Register</a>
+                                </li>
+  <li class="nav-item">
+                                    <a href="fantasymmadness.com/login" class="nav-link">Login</a>
+                                </li>
                                
 
 
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link dropdown-toggle">
-                                            Pages 
-                                        </a>
-
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link dropdown-toggle">
-                                                    Team 
-                                                </a>
-
-                                            <ul class="dropdown-menu">
-                                                <li class="nav-item">
-                                                    <a href="team-style-one.html" class="nav-link">Team Style One</a>
-                                                </li>
-
-                                                <li class="nav-item">
-                                                    <a href="team-style-two.html" class="nav-link">Team Style Two</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="team-style-three.html" class="nav-link">Team Style Three</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link dropdown-toggle">
-                                                    Services 
-                                                </a>
-
-                                            <ul class="dropdown-menu">
-                                                <li class="nav-item">
-                                                    <a href="services.html" class="nav-link">Services</a>
-                                                </li>
-
-                                                <li class="nav-item">
-                                                    <a href="services-details.html" class="nav-link">Services Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link dropdown-toggle">
-                                                    Portfolio 
-                                                </a>
-
-                                            <ul class="dropdown-menu">
-                                                <li class="nav-item">
-                                                    <a href="portfolio.html" class="nav-link">Portfolio</a>
-                                                </li>
-
-                                                <li class="nav-item">
-                                                    <a href="portfolio-details.html" class="nav-link">Portfolio Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="pricing.html" class="nav-link">Pricing</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="testimonials.html" class="nav-link">Testimonials</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="faq.html" class="nav-link">FAQ</a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="apply.html" class="nav-link">Apply</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link dropdown-toggle">
-                                                    Users 
-                                                </a>
-
-                                            <ul class="dropdown-menu">
-                                                <li class="nav-item">
-                                                    <a href="login.html" class="nav-link">Login</a>
-                                                </li>
-
-                                                <li class="nav-item">
-                                                    <a href="register.html" class="nav-link">Register</a>
-                                                </li>
-
-                                                <li class="nav-item">
-                                                    <a href="recover-password.html" class="nav-link">Recover Password</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="terms-conditions.html" class="nav-link">Terms And Conditions</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="coming-soon.html" class="nav-link">Coming Soon</a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="404.html" class="nav-link">404 Page</a>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link ">
-                                            Blog 
-                                        </a>
-
-                                  
-                                </li>
-
-                                <li class="nav-item">
-                                    <a href="contact-us.html" class="nav-link">Contact Us</a>
-                                </li>
+                                    <a href="fantasymmadness.com/blogs" class="nav-link">
+                                            Blogs 
+                                     </a>                                        </li>
+                                        
+                               
+                             
                             </ul>
 
                             <div class="others-options">
                                 <div class="option-item">
-                                    <a href="contact-us.html" class="default-btn btn style-5">Get In Touch <i class="ri-arrow-right-line"></i></a>
+                                    <a href="fantasymmadness.com/contact" class="default-btn btn style-5">Get In Touch <i class="ri-arrow-right-line"></i></a>
                                 </div>
                                 <div class="option-item">
                                     <div class="switch-box">
@@ -315,7 +203,7 @@
                         <div class="inner">
                             <div class="others-options">
                                 <div class="option-item">
-                                    <a href="contact-us.html" class="default-btn btn style-5">Get In Touch</a>
+                                    <a href="fantasymmadness.com/contact" class="default-btn btn style-5">Get In Touch</a>
                                 </div>
                                 <div class="option-item">
                                     <div class="switch-box">
@@ -340,10 +228,12 @@
             <div class="container-fluid">
                 <div class="banner-content style3">
                     <h1>Unleash Your Fight IQ in Fantasy Combat<span class="overlay"></span></h1>
-                    <p>Sign Up Free — Score $20 in Tokens to Start Winning Fantasy Fights, Fantasy MMA, and Fantasy Boxing matchups today! Join Fantasy Madness to draft fighters across Fantasy UFC, Fantasy BKFC, and Fantasy Kickboxing leagues, dominate the Fantasy Fighter Rankings, and conquer Fantasy Combat Sports — all with zero risk!</p>
-                    <div class="banner-btn">
-                        <a class="default-btn active mr-20" href="contact-us.html">Contact Us <i class="ri-arrow-right-line"></i></a>
-                        <a class="default-btn style-3" href="about-us.html">More About Us <i class="ri-arrow-right-line"></i></a>
+               <p>
+  <a href="https://www.fantasymmadness.com/" style="color:red;" target="_blank" rel="noopener noreferrer">Fantasy MMADNESS</a> lets you Sign Up Free — Score $20 in Tokens to Start Winning Fantasy Fights, Fantasy MMA, and Fantasy Boxing matchups today! Join the action to draft fighters across Fantasy UFC, Fantasy BKFC, and Fantasy Kickboxing leagues, dominate the Fantasy Fighter Rankings, and conquer Fantasy Combat Sports — all with zero risk!
+</p>
+     <div class="banner-btn">
+                        <a class="default-btn active mr-20" href="http://fantasymmadness.com/contact">Contact Us <i class="ri-arrow-right-line"></i></a>
+                        <a class="default-btn style-3" href="http://fantasymmadness.com/about">More About Us <i class="ri-arrow-right-line"></i></a>
                     </div>
                 </div>
             </div>
@@ -352,10 +242,12 @@
             <div class="container-fluid">
                 <div class="banner-content style3">
                     <h1>Bet Combat. Win Big in Fantasy Fighting.<span class="overlay"></span></h1>
-                    <p>Step into the world of Fantasy Madness — where Fantasy Combat, Fantasy Matchups, and Fantasy Wrestling fuel every moment. Bet on Fantasy BKFC, Fantasy Bare Knuckle bouts, Fantasy Knockouts, and join our Fantasy League for Combat Sports. Turn fight night strategy into real Fantasy Combat Sports Analysis and token prizes!</p>
-                    <div class="banner-btn">
-                        <a class="default-btn active mr-20" href="contact-us.html">Contact Us <i class="ri-arrow-right-line"></i></a>
-                        <a class="default-btn style-3" href="about-us.html">More About Us <i class="ri-arrow-right-line"></i></a>
+                <p>
+  Step into the world of <a href="https://www.fantasymmadness.com/" target="_blank" rel="noopener noreferrer" style="color:red;">Fantasy MMADNESS</a> — where Fantasy Combat, Fantasy Matchups, and Fantasy Wrestling fuel every moment. Bet on Fantasy BKFC, Fantasy Bare Knuckle bouts, Fantasy Knockouts, and join our Fantasy League for Combat Sports. Turn fight night strategy into real Fantasy Combat Sports Analysis and token prizes!
+</p>
+    <div class="banner-btn">
+                        <a class="default-btn active mr-20" href="http://fantasymmadness.com/contact">Contact Us <i class="ri-arrow-right-line"></i></a>
+                        <a class="default-btn style-3" href="http://fantasymmadness.com/about">More About Us <i class="ri-arrow-right-line"></i></a>
                     </div>
                 </div>
             </div>
@@ -366,68 +258,91 @@
 
 <!--Start About Area-->
 <div class="about-area ptb-100">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="about-img-content style3">
-                    <div class="image">
-                        <img src="assets/images/about/one.png" alt="Fantasy Combat Sports Platform">
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="about-content style3 pl-15">
-                    <div class="about-title">
-                        <span>About Fantasy Madness</span>
-                        <h2>Where Combat Sports Meet Fantasy Strategy and Real-Time Action<span class="overlay"></span></h2>
-                    </div>
-                    <p>Fantasy Madness is the ultimate platform for fans who crave more than just watching fights. Dive into Fantasy MMA, Fantasy Boxing, and Fantasy Kickboxing where you bet fantasy — drafting real fighters from Fantasy UFC, Fantasy BKFC, and Fantasy Bare Knuckle promotions. Predict every takedown, track Fantasy Knockouts, and earn points in live contests. Whether you're a Fantasy Wrestling expert or a Fantasy Combat Sports rookie, we turn your fight IQ into fantasy glory with real-time scoring and token rewards.</p>
-
-                    <div class="about-features-list">
-                        <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                                <ul>
-                                    <li>
-                                        <div class="top-content">
-                                            <i class="ri-check-double-line"></i>
-                                            <h3>Draft Real Fighters</h3>
-                                        </div>
-                                        <span>Build your fantasy lineup using real athletes from major combat events — Fantasy League for Combat Sports where every strike and takedown earns you points.</span>
-                                    </li>
-                                    <li>
-                                        <div class="top-content">
-                                            <i class="ri-check-double-line"></i>
-                                            <h3>Bet on Fantasy Combat</h3>
-                                        </div>
-                                        <span>Use free tokens to join fantasy contests in Fantasy BKFC, Fantasy UFC, and Fantasy MMA — no risk, all reward. Bet smart and dominate Fantasy Fighter Rankings.</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-lg-6 col-md-6">
-                                <ul>
-                                    <li>
-                                        <div class="top-content">
-                                            <i class="ri-check-double-line"></i>
-                                            <h3>Real-Time Fantasy Scoring</h3>
-                                        </div>
-                                        <span>Experience every Fantasy Matchup like never before — scores update live based on fighter performance, Fantasy Knockouts, and Fantasy Wrestling moves.</span>
-                                    </li>
-                                    <li>
-                                        <div class="top-content">
-                                            <i class="ri-check-double-line"></i>
-                                            <h3>Climb the Fantasy Leaderboard</h3>
-                                        </div>
-                                        <span>Outscore your rivals, rise through the Fantasy Combat Sports Analysis rankings, and earn your place among the top Fantasy Fighting champions at Fantasy Madness.</span>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="default-btn active" href="about-us.html">More About Us <i class="ri-arrow-right-line"></i></a>
-                </div>
-            </div>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="about-img-content style3">
+          <div class="image">
+            <img src="assets/images/about/one.png" alt="Fantasy Combat Sports Platform">
+          </div>
         </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="about-content style3 pl-15">
+          <div class="about-title">
+            <span>About Fantasy Madness</span>
+            <h2>Where Combat Sports Meet Fantasy Strategy and Real-Time Action<span class="overlay"></span></h2>
+          </div>
+          <p>
+            Fantasy Madness is the ultimate platform for fans who crave more than just watching fights.
+            <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">Visit Fantasy MMADNESS</a>
+            and dive into Fantasy MMA, Fantasy Boxing, and Fantasy Kickboxing where you bet fantasy — drafting real fighters from Fantasy UFC, Fantasy BKFC, and Fantasy Bare Knuckle promotions.
+            <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">Try our fantasy drafts</a>
+            Predict every takedown, track Fantasy Knockouts, and earn points in live contests.
+            <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">Play live fantasy contests</a>
+            Whether you're a Fantasy Wrestling expert or a Fantasy Combat Sports rookie, we turn your fight IQ into fantasy glory with real-time scoring and token rewards.
+            <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">Get rewarded for fight IQ</a>
+          </p>
+
+          <div class="about-features-list">
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <ul>
+                  <li>
+                    <div class="top-content">
+                      <i class="ri-check-double-line"></i>
+                      <h3>Draft Real Fighters</h3>
+                    </div>
+                    <span>
+                      Build your fantasy lineup using real athletes from major combat events — Fantasy League for Combat Sports where every strike and takedown earns you points.
+                      <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">Create your fantasy league</a>
+                    </span>
+                  </li>
+                  <li>
+                    <div class="top-content">
+                      <i class="ri-check-double-line"></i>
+                      <h3>Bet on Fantasy Combat</h3>
+                    </div>
+                    <span>
+                      Use free tokens to join fantasy contests in Fantasy BKFC, Fantasy UFC, and Fantasy MMA — no risk, all reward.
+                      <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">Start with free tokens</a>
+                      Bet smart and dominate Fantasy Fighter Rankings.
+                      <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">Climb the rankings</a>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <ul>
+                  <li>
+                    <div class="top-content">
+                      <i class="ri-check-double-line"></i>
+                      <h3>Real-Time Fantasy Scoring</h3>
+                    </div>
+                    <span>
+                      Experience every Fantasy Matchup like never before — scores update live based on fighter performance, Fantasy Knockouts, and Fantasy Wrestling moves.
+                      <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">See live scoring in action</a>
+                    </span>
+                  </li>
+                  <li>
+                    <div class="top-content">
+                      <i class="ri-check-double-line"></i>
+                      <h3>Climb the Fantasy Leaderboard</h3>
+                    </div>
+                    <span>
+                      Outscore your rivals, rise through the Fantasy Combat Sports Analysis rankings, and earn your place among the top Fantasy Fighting champions at Fantasy Madness.
+                      <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">View the leaderboard</a>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <a class="default-btn active" href="https://fantasymmadness.com/about">More About Us <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
 <!--End About Area-->
 
@@ -447,7 +362,6 @@
                     <div class="services-content">
                         <h3><a href="fight-rewards.html">Fantasy Fight Contests</a></h3>
                         <p>Pick real fighters, draft dream lineups, and compete in fantasy contests to win big — with no deposit needed to start!</p>
-                        <a class="default-btn style-4" href="fight-rewards.html">Read More <i class="ri-arrow-right-line"></i></a>
                     </div>
                 </div>
             </div>
@@ -459,7 +373,6 @@
                     <div class="services-content">
                         <h3><a href="spin-the-wheel.html">Spin the Wheel Game</a></h3>
                         <p>Take a shot at luck — spin the Fantasy Madness wheel daily for a chance to score token bonuses and exclusive rewards.</p>
-                        <a class="default-btn style-4" href="spin-the-wheel.html">Read More <i class="ri-arrow-right-line"></i></a>
                     </div>
                 </div>
             </div>
@@ -471,7 +384,6 @@
                     <div class="services-content">
                         <h3><a href="slot-machine.html">Slot Machine Game</a></h3>
                         <p>Hit the virtual slots and multiply your tokens! Play for fun or play to win — prizes go up to $200 in free fantasy credits.</p>
-                        <a class="default-btn style-4" href="slot-machine.html">Read More <i class="ri-arrow-right-line"></i></a>
                     </div>
                 </div>
             </div>
@@ -483,7 +395,6 @@
                     <div class="services-content">
                         <h3><a href="fight-leaderboard.html">Leaderboard Challenges</a></h3>
                         <p>Climb the FMMA leaderboard by scoring points through fight predictions. Outrank others and unlock exclusive bonuses weekly!</p>
-                        <a class="default-btn style-4" href="fight-leaderboard.html">Read More <i class="ri-arrow-right-line"></i></a>
                     </div>
                 </div>
             </div>
@@ -492,61 +403,90 @@
 </div>
 <!--End Services Area--><!--Start Ask Area-->
 <div class="faq-area pt-70">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-6">
-                <div class="faq-content">
-                    <div class="faq-title">
-                        <span>Frequently Asked</span>
-                        <h2>Your Top Fantasy Combat Sports Questions — Answered <span class="overlay"></span></h2>
-                    </div>
-                    <p>Got questions about betting on fantasy fights, earning tokens in Fantasy MMA, or playing games like the fantasy spin wheel and fantasy slots? We’ve gathered the most common ones to help you dive into Fantasy Madness — the ultimate Fantasy Combat Sports platform — with full confidence.</p>
-                    <a class="default-btn active" href="contact-us.html">Contact Us <i class="ri-arrow-right-line"></i></a>
-                </div>
-            </div>
-            <div class="col-lg-6 pl-20">
-                <div class="faq-accordion pl-15">
-                    <div class="accordion">
-                        <div class="accordion-item">
-                            <div class="accordion-title active">
-                                <i class="ri-arrow-down-s-line"></i> Is it really free to sign up and start betting on fantasy fights?
-                            </div>
-                            <div class="accordion-content show">
-                                <p>Yes! Signing up for Fantasy Madness is completely free — and you instantly get $20 in tokens to start playing Fantasy MMA, Fantasy UFC, and Fantasy BKFC contests. No credit card, no deposit, just pure fantasy fight action from day one.</p>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <div class="accordion-title">
-                                <i class="ri-arrow-down-s-line"></i> What can I win in the spin wheel and slot machine games?
-                            </div>
-                            <div class="accordion-content">
-                                <p>Our fantasy spin wheel and fantasy slot machine games let you win up to $200 worth of tokens, bonus entries into Fantasy Combat Sports contests, and leaderboard boosters. It's all about luck — and it’s all 100% free to play for every Fantasy Fighter.</p>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <div class="accordion-title">
-                                <i class="ri-arrow-down-s-line"></i> How does the FMMA leaderboard work?
-                            </div>
-                            <div class="accordion-content">
-                                <p>Every fantasy fight you bet on — from Fantasy Knockouts to Fantasy Bare Knuckle brawls — earns you points. The more accurate your picks, the higher you climb the Fantasy Leaderboard. Weekly and monthly champions win major token prizes and earn top ranks in Fantasy Combat Sports Analysis.</p>
-                            </div>
-                        </div>
-
-                        <div class="accordion-item">
-                            <div class="accordion-title">
-                                <i class="ri-arrow-down-s-line"></i> Can I play even if I don't know much about MMA?
-                            </div>
-                            <div class="accordion-content">
-                                <p>Absolutely. Whether you're an expert in Fantasy Wrestling or a total newcomer to Fantasy Kickboxing, Fantasy Madness is built for all levels. We provide detailed stats, Fantasy Fighter Rankings, and insights to help you make smarter picks and boost your chances of winning.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="faq-content">
+          <div class="faq-title">
+            <span>Frequently Asked</span>
+            <h2>Your Top Fantasy Combat Sports Questions — Answered <span class="overlay"></span></h2>
+          </div>
+          <p>
+            Got questions about betting on fantasy fights, earning tokens in Fantasy MMA, or playing games like the fantasy spin wheel and fantasy slots?
+            <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">Explore Fantasy MMADNESS Features</a>
+            We’ve gathered the most common ones to help you dive into Fantasy Madness — the ultimate Fantasy Combat Sports platform — with full confidence.
+            <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">Visit Fantasy Madness Now</a>
+          </p>
+          <a class="default-btn active" href="fantasymmadness.com/contact">Contact Us <i class="ri-arrow-right-line"></i></a>
         </div>
+      </div>
+      <div class="col-lg-6 pl-20">
+        <div class="faq-accordion pl-15">
+          <div class="accordion">
+
+            <div class="accordion-item">
+              <div class="accordion-title active">
+                <i class="ri-arrow-down-s-line"></i> Is it really free to sign up and start betting on fantasy fights?
+              </div>
+              <div class="accordion-content show">
+                <p>
+                  Yes! Signing up for Fantasy Madness is completely free — and you instantly get $20 in tokens to start playing Fantasy MMA, Fantasy UFC, and Fantasy BKFC contests.
+                  <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">Sign up and claim tokens</a>
+                  No credit card, no deposit, just pure fantasy fight action from day one.
+                  <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">Experience fantasy fights today</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <i class="ri-arrow-down-s-line"></i> What can I win in the spin wheel and slot machine games?
+              </div>
+              <div class="accordion-content">
+                <p>
+                  Our fantasy spin wheel and fantasy slot machine games let you win up to $200 worth of tokens, bonus entries into Fantasy Combat Sports contests, and leaderboard boosters.
+                  <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">Spin to win fantasy tokens</a>
+                  It's all about luck — and it’s all 100% free to play for every Fantasy Fighter.
+                  <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">Play fantasy games free</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <i class="ri-arrow-down-s-line"></i> How does the FMMA leaderboard work?
+              </div>
+              <div class="accordion-content">
+                <p>
+                  Every fantasy fight you bet on — from Fantasy Knockouts to Fantasy Bare Knuckle brawls — earns you points.
+                  <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">Earn points with every pick</a>
+                  The more accurate your picks, the higher you climb the Fantasy Leaderboard.
+                  <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">Climb the FMMA rankings</a>
+                  Weekly and monthly champions win major token prizes and earn top ranks in Fantasy Combat Sports Analysis.
+                  <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">Become a fantasy champion</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <div class="accordion-title">
+                <i class="ri-arrow-down-s-line"></i> Can I play even if I don't know much about MMA?
+              </div>
+              <div class="accordion-content">
+                <p>
+                  Absolutely. Whether you're an expert in Fantasy Wrestling or a total newcomer to Fantasy Kickboxing, Fantasy Madness is built for all levels.
+                  <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">Get started at any skill level</a>
+                  We provide detailed stats, Fantasy Fighter Rankings, and insights to help you make smarter picks and boost your chances of winning.
+                  <a href="https://www.fantasymmadness.com" target="_blank" rel="noopener noreferrer" style="color: red;">View fighter stats & rankings</a>
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
 <!--End Ask Area-->
 <!--Start Counter Area-->
@@ -594,145 +534,6 @@
     </div>
     <!--End Counter Area-->
 
-    <!--Start Testimonials Area
-    <div class="testimonials-area bg pt-100">
-        <div class="container">
-            <div class="section-title white-title">
-                <span>Testimonials</span>
-                <h2>See Reviews From Our Clients <span class="overlay"></span></h2>
-            </div>
-            <div class="testimonials-slider owl-carousel owl-theme" data-slider-id="1">
-                <div class="testimonials-item">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="client-img pr-15">
-                                <img src="assets/images/testimonials/testimonial-img-5.jpg" alt="Image">
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="testimonials-content pl-15">
-                                <div class="quote">
-                                    <i class="ri-double-quotes-l"></i>
-                                </div>
-                                <p>“The questions are compiled from genuine questions that people ask. When the same or similar is question is asked by many people, we add it to this page, so if you have a question that is not listed us here, please don’t
-                                    hesitate to ask through our painting and drawing Contact Page.”</p>
-                                <div class="clients-info">
-                                    <h3>Martina Grady</h3>
-                                    <span>Cardio Trainer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonials-item">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="client-img pr-15">
-                                <img src="assets/images/testimonials/testimonial-img-6.jpg" alt="Image">
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="testimonials-content pl-15">
-                                <div class="quote">
-                                    <i class="ri-double-quotes-l"></i>
-                                </div>
-                                <p>“The questions are compiled from genuine questions that people ask. When the same or similar is question is asked by many people, we add it to this page, so if you have a question that is not listed us here, please don’t
-                                    hesitate to ask through our painting and drawing Contact Page.”</p>
-                                <div class="clients-info">
-                                    <h3>Tomas Boul</h3>
-                                    <span>Cardio Trainer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonials-item">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="client-img pr-15">
-                                <img src="assets/images/testimonials/testimonial-img-7.jpg" alt="Image">
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="testimonials-content pl-15">
-                                <div class="quote">
-                                    <i class="ri-double-quotes-l"></i>
-                                </div>
-                                <p>“The questions are compiled from genuine questions that people ask. When the same or similar is question is asked by many people, we add it to this page, so if you have a question that is not listed us here, please don’t
-                                    hesitate to ask through our painting and drawing Contact Page.”</p>
-                                <div class="clients-info">
-                                    <h3>Jiana Raisa</h3>
-                                    <span>Cardio Trainer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonials-item">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="client-img pr-15">
-                                <img src="assets/images/testimonials/testimonial-img-8.jpg" alt="Image">
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="testimonials-content pl-15">
-                                <div class="quote">
-                                    <i class="ri-double-quotes-l"></i>
-                                </div>
-                                <p>“The questions are compiled from genuine questions that people ask. When the same or similar is question is asked by many people, we add it to this page, so if you have a question that is not listed us here, please don’t
-                                    hesitate to ask through our painting and drawing Contact Page.”</p>
-                                <div class="clients-info">
-                                    <h3>Alex Jhon</h3>
-                                    <span>Cardio Trainer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="testimonials-item">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="client-img pr-15">
-                                <img src="assets/images/testimonials/testimonial-img-9.jpg" alt="Image">
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="testimonials-content pl-15">
-                                <div class="quote">
-                                    <i class="ri-double-quotes-l"></i>
-                                </div>
-                                <p>“The questions are compiled from genuine questions that people ask. When the same or similar is question is asked by many people, we add it to this page, so if you have a question that is not listed us here, please don’t
-                                    hesitate to ask through our painting and drawing Contact Page.”</p>
-                                <div class="clients-info">
-                                    <h3>Moris Jinda</h3>
-                                    <span>Cardio Trainer</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="owl-thumbs" data-slider-id="1">
-                <button class="owl-thumb-item">
-                        <img src="assets/images/testimonials/testimonial-img-5.jpg" alt="Images">  
-                    </button>
-                <button class="owl-thumb-item">
-                        <img src="assets/images/testimonials/testimonial-img-6.jpg" alt="Images">  
-                    </button>
-                <button class="owl-thumb-item">
-                        <img src="assets/images/testimonials/testimonial-img-7.jpg" alt="Images">  
-                    </button>
-                <button class="owl-thumb-item">
-                        <img src="assets/images/testimonials/testimonial-img-8.jpg" alt="Images">  
-                    </button>
-                <button class="owl-thumb-item">
-                        <img src="assets/images/testimonials/testimonial-img-9.jpg" alt="Images">  
-                    </button>
-            </div>
-        </div>
-    </div>
-End Testimonials Area-->
 <style>
 .portfolio-image{
 max-height:300px;
@@ -1229,6 +1030,37 @@ function trackClick() {
  trackClick();
 </script>
 
+  <script>
+    (function() {
+      if (!window.chatbase || window.chatbase("getState") !== "initialized") {
+        window.chatbase = (...args) => {
+          if (!window.chatbase.q) window.chatbase.q = [];
+          window.chatbase.q.push(args);
+        };
+
+        window.chatbase = new Proxy(window.chatbase, {
+          get(target, prop) {
+            if (prop === "q") return target.q;
+            return (...args) => target(prop, ...args);
+          }
+        });
+
+        const onLoad = function () {
+          const script = document.createElement("script");
+          script.src = "https://www.chatbase.co/embed.min.js";
+          script.id = "4ke2srJtbF4_VgZJrMeiM"; // Replace with your actual bot ID
+          script.domain = "www.chatbase.co";
+          document.body.appendChild(script);
+        };
+
+        if (document.readyState === "complete") {
+          onLoad();
+        } else {
+          window.addEventListener("load", onLoad);
+        }
+      }
+    })();
+  </script>
 
     <!-- Jquery js -->
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
